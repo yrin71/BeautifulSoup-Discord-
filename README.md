@@ -1,1 +1,3 @@
 # BeautifulSoup-Discord-
+
+Pythonのライブラリである，BeautifulSoupで天気予報サイトをウェブスクレイピングしてDiscordのDiscordHookから自分のアカウントへ天気を通知する．
