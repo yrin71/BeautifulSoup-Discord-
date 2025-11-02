@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-
 def fetch_tenki_jp():
     url = "https://tenki.jp/forecast/2/10/3630/7202/"                        #好きな天気予報サイトのURL
     r = requests.get(url)
@@ -33,7 +32,7 @@ def fetch_tenki_jp():
 
 
 def notify_discord(msg):
-    requests.post('https://discord.com/api/webhooks/__________Discord Hook URL_________, json={"content": msg})    #json形式にしてDiscord Hookに送信
+    requests.post('https://discord.com/api/webhooks/-DiscordHook URL-, json={"content": msg})    #json形式にしてDiscord Hookに送信
 
 
 def main():
